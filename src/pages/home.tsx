@@ -17,6 +17,8 @@ interface ISkillData {
   name: string;
 }
 
+
+
 export function Home(){
   const [newSkill, setNewSkill] = useState('');
   const [mySkills, setMySkills] = useState<ISkillData[]>([]);
